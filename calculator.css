@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica,  sans-serif;
+    align-items: center;
+    height: 100;
+    margin: 100;
+  }
+  
+  calculator {
+    border: 1px ;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #display {
+    align-items: center;
+    width: 1200px ;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+  } 
