@@ -17,13 +17,14 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-#display {
+#Display {
   width: 800px;
   margin-bottom: 10px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 5px;
+  text-align: end;
 }
 
 .keys {
@@ -36,12 +37,12 @@ button {
   padding: 10px;
   font-size: 18px;
   border: 1px solid #ccc;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #f0f0f0;
+  background-color: grey;
 }
 
 
